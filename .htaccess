@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteBase "/compozerNew/"
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-D
+RewriteRule (.*) /index.php [END]
+RewriteRule (.*) /inde x.php ? route=$1 [QSA,L]
