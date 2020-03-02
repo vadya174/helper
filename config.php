@@ -1,5 +1,5 @@
 <?php
-
+echo "привет";
 return [
     "host" => "localhost",
     "db" => "practic_posts",
